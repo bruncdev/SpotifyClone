@@ -19,7 +19,14 @@ body {
   border-radius: 30px;
   letter-spacing: 1px;
   font-weight: bold;
+  transition: 0.5s;
 }
+
+.btn-primary:hover {
+  background: white;
+  color: black;
+}
+
 .logo {
   height: 40px;
   width: auto;
@@ -87,4 +94,83 @@ body {
 #showcase .showcase-container p {
   margin: 15px 0;
   font-size: 1.1rem;
+}
+
+/* Footer */
+
+#footer {
+  background: black;
+  color: white;
+  padding: 80px 0;
+}
+
+#footer .footer-content {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+  margin: 0 40px;
+  list-style: none;
+}
+
+#footer .footer-content .footer-menu-item {
+  margin: 25px 0;
+}
+
+#footer .footer-content .footer-menu p {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #919496;
+  font-size: 0.8rem;
+}
+
+/* FooterSocials */
+
+.socials {
+  display: flex;
+}
+
+.socials i {
+  margin: 0 20px;
+  font-size: 1.7rem;
+}
+
+/* Footer Info */
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 60%;
+  margin: auto;
+  font-weight: bold;
+  color: #919496;
+  font-size: 0.75rem;
+  padding-top: 30px;
+}
+
+.footer-info .footer-info-items {
+  display: flex;
+  list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+  margin: 0 10px;
+}
+
+.footer-info .rights .country {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-info .rights .country .brazil-flag {
+  height: 20px;
+  width: auto;
+  display: inline-block;
+  margin-left: 10px;
 }
